@@ -1,0 +1,19 @@
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+ul{
+    list-style-type: none;
+}
+button,
+select,
+textarea,
+input{
+    border: 0;
+    background: unset;
+    cursor: pointer;
+    &:focus{
+        outline: 0;
+    }
+}

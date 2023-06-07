@@ -1,0 +1,9 @@
+.btn{
+    padding: 9px 20px;
+    min-width: 130px;
+    border-radius: 10px;
+    &.success{
+        background-color: $green;
+        color: #fff;
+    }
+}
